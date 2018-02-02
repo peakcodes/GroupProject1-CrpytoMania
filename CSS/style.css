@@ -17,11 +17,7 @@ body {
     height: 100%;
     overflow: hidden;
     color: #fff;
-    background-image: url(./Images/financialscamimage2.jpg);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#6af), to(#bdf));
-    background-image: -webkit-linear-gradient(#6af, #bdf);
-    background-image: -moz-linear-gradient(#6af, #bdf);
-    background-image: linear-gradient(#6af, #bdf);
+    background-image: url(../Images/financialscamimage2.jpg);
 }
 
 ::-webkit-scrollbar { 
@@ -38,10 +34,11 @@ h1 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
     text-align: center;
-    font: 10em "Codystar", sans-serif;
+    font: 15em "Codystar", sans-serif;
     pointer-events: none;
     -webkit-user-select: none;
     user-select: none;
+    color: green;
 }
 
 .snowflake {
@@ -62,7 +59,7 @@ h1 {
     background-image: -webkit-radial-gradient(
         center,
         circle farthest-corner,
-        rgba(255, 255, 255, 1) 40%,
+        rgba(255, 255, 255, 0.774) 40%,
         rgba(255, 255, 255, 0) 100%
     );
     background-image: -moz-radial-gradient(
