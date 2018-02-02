@@ -1,6 +1,13 @@
+header {
+    width: 100%;
+    background-color: white;
+    height: auto;
+    border-bottom: 20px solid;
+    border-color: #cccccc;
+
+}
 body {
-    
-        background-image: url("./images/financialscamimage2.jpg");
+        background-image: url("../images/financialscamimage2.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -8,3 +15,4 @@ body {
         background-color:#464646;
         
       }
+
