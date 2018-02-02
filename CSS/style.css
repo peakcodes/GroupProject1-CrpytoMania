@@ -16,7 +16,35 @@ body {
 }
 
 .container {
-        width: 960px;
+        width: 100%;
         margin: 0 auto;
         height: 75px;
     }
+
+.form {
+    margin-top: 25%;
+    width: 33%;
+    height: auto;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    Background-color: black;
+    color: white;
+    text-anchor: end;
+    text-align: center;
+}
+
+#footertext {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: small;
+    text-align: center;
+    background-color: #black;
+    padding-bottom: 1cm;
+    padding-top: 1cm;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
