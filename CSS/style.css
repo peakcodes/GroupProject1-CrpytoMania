@@ -34,7 +34,7 @@ h1 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
     text-align: center;
-    font: 15em "Codystar", sans-serif;
+    font: 7.5em "Codystar", sans-serif;
     pointer-events: none;
     -webkit-user-select: none;
     user-select: none;
@@ -82,6 +82,27 @@ h1 {
     );
 }
 
+.investorvideo {
+    margin-top: 10%;
+    width: 25%;
+    margin-left: 100px;
+}
+
+#investorname {
+    color: white;
+    margin-left: 100px;
+}
+
+
+#header1 {
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+    
+
+}
+
 #snow {
     position: absolute;
     width: 100%;
@@ -119,7 +140,7 @@ footer {
 }
 
 #footertext {
-    color: white;
+    color: black;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: small;
     text-align: center;
@@ -131,6 +152,3 @@ footer {
     width: 100%;
 }
 
-h2 {
-    
-}
