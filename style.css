@@ -1,0 +1,154 @@
+header {
+    width: 100%;
+    background-color: white;
+    height: auto;
+    border-bottom: 20px solid;
+    border-color: #cccccc;
+
+}
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+    background-image: url(../Images/financialscamimage2.jpg);
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+h1 {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    text-align: center;
+    font: 7.5em "Codystar", sans-serif;
+    pointer-events: none;
+    -webkit-user-select: none;
+    user-select: none;
+    color: green;
+}
+
+.snowflake {
+    position: absolute;
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: -webkit-radial-gradient(
+        center,
+        circle farthest-corner,
+        rgba(255, 255, 255, 0.774) 40%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-image: -moz-radial-gradient(
+        center,
+        circle farthest-corner,
+        rgba(255, 255, 255, 1) 40%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-image: -ms-radial-gradient(
+        center,
+        circle farthest-corner,
+        rgba(255, 255, 255, 1) 40%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-image: radial-gradient(
+        center,
+        circle farthest-corner,
+        rgba(255, 255, 255, 1) 40%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.investorvideo {
+    margin-top: 10%;
+    width: 25%;
+    margin-left: 100px;
+}
+
+#investorname {
+    color: white;
+    margin-left: 100px;
+}
+
+
+#header1 {
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+    
+
+}
+
+#snow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+
+.container {
+        width: 100%;
+        margin: 0 auto;
+        height: 75px;
+    }
+
+.form {
+    margin-top: 10%;
+    width: 33%;
+    height: auto;
+    background-color: transparent;
+    z-index: 100;
+    margin-left: 100px;
+    color: white;
+}
+
+#formtext {
+    color:white;
+    
+}
+
+footer {
+    width: 100%;
+    Background-color: black;
+    color: white;
+    text-anchor: end;
+    text-align: center;
+}
+
+#footertext {
+    color: black;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: small;
+    text-align: center;
+    background-color: #black;
+    padding-bottom: 1cm;
+    padding-top: 1cm;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
