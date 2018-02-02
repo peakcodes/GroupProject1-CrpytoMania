@@ -22,10 +22,18 @@ body {
     }
 
 .form {
-    margin-top: 25%;
+    margin-top: 10%;
     width: 33%;
     height: auto;
-    background-color: white;
+    background-color: transparent;
+    z-index: 100;
+    margin-left: 100px;
+    color: white;
+}
+
+#formtext {
+    color:white;
+    
 }
 
 footer {
@@ -37,7 +45,7 @@ footer {
 }
 
 #footertext {
-    color: white;
+    color:;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: small;
     text-align: center;
